@@ -12,10 +12,10 @@ mRNA and lncRNA gene expression data for MS was extracted from PltDB, a blood-pl
 The NCBI Gene Tool was used to obtain a list of associated genes with MS and CD, totaling 127 genes. The NCBI Gene Tool and Genetic Testing Registry tools were used to obtain genes associated with testosterone. This resulted in 1246 genes from the NCBI gene tool and 13 with clinical relevance from the Genetic Testing Registry, totaling 1259 genes.  
 
 **Required Files:** </br>
-Disease_mRNA_LncRNA_Multiple_Sclerose.csv -> Csv file of diseased Multiple Sclerosis (MS) gene expression, 86 samples and 31k genes
-Healthy_mRNA_LncRNA_Multiple_Sclerose_HC.csv -> Csv file of healthy gene expression, 354 samples and 31k genes
-MS_CD_Genes.txt -> Txt file of genes shared by MS and Celiac Disease (CD) from NCBI's gene tool (127 genes)
-Testosterone_Genes.txt -> Txt file of genes associated with Testosterone (TST) from NCBI's gene tool (1246 genes)
+<li> Disease_mRNA_LncRNA_Multiple_Sclerose.csv -> Csv file of diseased Multiple Sclerosis (MS) gene expression, 86 samples and 31k genes </li> 
+<li> Healthy_mRNA_LncRNA_Multiple_Sclerose_HC.csv -> Csv file of healthy gene expression, 354 samples and 31k genes </li> 
+<li> MS_CD_Genes.txt -> Txt file of genes shared by MS and Celiac Disease (CD) from NCBI's gene tool (127 genes) </li> 
+<li> Testosterone_Genes.txt -> Txt file of genes associated with Testosterone (TST) from NCBI's gene tool (1246 genes) </li> 
 
 Preprocessing.R -> R file to filter Disease/Healthy samples by genes in MS_CD_Genes.txt and Testosterone_Genes.txt
 WCGNA.R -> R file for WCGNA analysis for the Disease/Healthy samples in MS/CD and MS/CD/TST gene expression subsets
