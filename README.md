@@ -15,33 +15,33 @@ The NCBI Gene Tool was used to obtain a list of associated genes with MS and CD,
 <li> Disease_mRNA_LncRNA_Multiple_Sclerose.csv -> Csv file of diseased Multiple Sclerosis (MS) gene expression, 86 samples and 31k genes </li> 
 <li> Healthy_mRNA_LncRNA_Multiple_Sclerose_HC.csv -> Csv file of healthy gene expression, 354 samples and 31k genes </li> 
 <li> MS_CD_Genes.txt -> Txt file of genes shared by MS and Celiac Disease (CD) from NCBI's gene tool (127 genes) </li> 
-<li> Testosterone_Genes.txt -> Txt file of genes associated with Testosterone (TST) from NCBI's gene tool (1246 genes) </li> 
+<li> Testosterone_Genes.txt -> Txt file of genes associated with Testosterone (TST) from NCBI's gene tool (1246 genes) </li> </br>
 
-Preprocessing.R -> R file to filter Disease/Healthy samples by genes in MS_CD_Genes.txt and Testosterone_Genes.txt
-WCGNA.R -> R file for WCGNA analysis for the Disease/Healthy samples in MS/CD and MS/CD/TST gene expression subsets
-Heatmap.R -> R file to create heatmaps from WCGNA modules of interest 
+<li>Preprocessing.R -> R file to filter Disease/Healthy samples by genes in MS_CD_Genes.txt and Testosterone_Genes.txt </li>
+<li>WCGNA.R -> R file for WCGNA analysis for the Disease/Healthy samples in MS/CD and MS/CD/TST gene expression subsets</li>
+<li>Heatmap.R -> R file to create heatmaps from WCGNA modules of interest </li></br>
 
-Healthy_MS_CD.cys -> Cytoscape file of co-expression Reactome network generated from healthy MS/CD expression data
-Healthy_TST_MS_CD.cys -> Cytoscape file of co-expression Reactome network generated from healthy MS/CD/TST expression data
-Disease_TST_MS_CD.cys ->Cytoscape file of co-expression Reactome network generated from disease MS/CD/TST expression data
-Disease_MS_CD.cys -> Cytoscape file of co-expression Reactome network generated from disease MS/CD expression data
+<li>Healthy_MS_CD.cys -> Cytoscape file of co-expression Reactome network generated from healthy MS/CD expression data</li>
+<li>Healthy_TST_MS_CD.cys -> Cytoscape file of co-expression Reactome network generated from healthy MS/CD/TST expression data</li>
+<li>Disease_TST_MS_CD.cys ->Cytoscape file of co-expression Reactome network generated from disease MS/CD/TST expression data</li>
+<li>Disease_MS_CD.cys -> Cytoscape file of co-expression Reactome network generated from disease MS/CD expression data</li></br>
 
 **Required packages:** </br>
 WGCNA, readr, dplyr, tidyverse, phyloseq, ggplot2, RColorBrewer, circlize
 
 **Output Files:** </br>
-Disease_MS_CD_Gene_Expression.csv -> Csv file of subset of disease expression data by MS/CD genes 
-Disease_TST_MS_CD_Gene_Expression.csv -> Csv file of subset of disease expression data by MS/CD/TST genes 
-Healthy_MS_CD_Gene_Expression.csv -> Csv file of subset of healthy expression data by MS/CD genes 
-Healthy_TST_MS_CD_Gene_Expression.csv -> Csv file of subset of healthy expression data by MS/CD/TST genes 
+<li>Disease_MS_CD_Gene_Expression.csv -> Csv file of subset of disease expression data by MS/CD genes </li>
+<li>Disease_TST_MS_CD_Gene_Expression.csv -> Csv file of subset of disease expression data by MS/CD/TST genes </li>
+<li>Healthy_MS_CD_Gene_Expression.csv -> Csv file of subset of healthy expression data by MS/CD genes </li>
+<li>Healthy_TST_MS_CD_Gene_Expression.csv -> Csv file of subset of healthy expression data by MS/CD/TST genes </li></br>
 
-Disease_MS_CD_gene_modules.txt -> Txt file of genes and module colors from WCGNA analysis of disease MS/CD gene expression data
-Disease_MS_CD_modules_of_interest.csv -> Csv file of expression data from genes in modules of interest from disease MS/CD expression WCGNA analysis
+<li>Disease_MS_CD_gene_modules.txt -> Txt file of genes and module colors from WCGNA analysis of disease MS/CD gene expression data</li>
+<li>Disease_MS_CD_modules_of_interest.csv -> Csv file of expression data from genes in modules of interest from disease MS/CD expression WCGNA analysis</li></br>
 
-Disease_TST_MS_CD_gene_modules.txt -> Txt file of genes and module colors from WCGNA analysis of disease MS/CD/TST gene expression data
-Disease_TST_MS_CD_modules_of_interest.csv ->  Csv file of expression data from genes in modules of interest from disease MS/CD/TST expression WCGNA analysis
+<li>Disease_TST_MS_CD_gene_modules.txt -> Txt file of genes and module colors from WCGNA analysis of disease MS/CD/TST gene expression data</li>
+<li>Disease_TST_MS_CD_modules_of_interest.csv ->  Csv file of expression data from genes in modules of interest from disease MS/CD/TST expression WCGNA analysis</li></br>
 
-Healthy_MS_CD_gene_modules.txt -> Txt file of genes and module colors from WCGNA analysis of healthy MS/CD gene expression data
-Healthy_TST_MS_CD_gene_modules.txt -> Txt file of genes and module colors from WCGNA analysis of healthy MS/CD/TST gene expression data
+<li>Healthy_MS_CD_gene_modules.txt -> Txt file of genes and module colors from WCGNA analysis of healthy MS/CD gene expression data</li>
+<li>Healthy_TST_MS_CD_gene_modules.txt -> Txt file of genes and module colors from WCGNA analysis of healthy MS/CD/TST gene expression data</li></br>
 
-Figures -> Folder of figures generated from analysis (READ_ME included in folder) 
+<li>Figures -> Folder of figures generated from analysis (READ_ME included in folder) </li>
